@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 export default () =>
     <div>
@@ -26,6 +26,3 @@ export default () =>
             </ul>
         </nav>
     </div>
-
-
-
