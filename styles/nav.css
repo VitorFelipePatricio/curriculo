@@ -28,6 +28,12 @@ html {
     font-weight: 500
 }
 
+#icon {
+    float: right;
+    margin-top: 27px;
+    margin-right: 10%;
+}
+
 .itemLista {
     font-family: Courier, monospace;
     margin-right: 2%;
@@ -36,7 +42,7 @@ html {
 }
 
 .link {
-    color: blue;
+    color: rgb(0, 0, 255);
     text-decoration: none
 }
 
@@ -44,15 +50,16 @@ html {
     .lista {
         position: absolute;
         width: 100%;
-        right: -100%;
+        display: none;
         height: 520px;
         background: lavender;
         margin-left: 0;
         text-align: center;
         transition: all .5s
     }
-    .show {
-        right: 0;
+    .show{
+        display: inline-block;
+        left: -0%;
     }
     .itemLista {
         display: block; 

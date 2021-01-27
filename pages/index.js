@@ -1,4 +1,4 @@
-import Nav from './componentes/Nav'
+import Nav from './components/Nav'
 
 export default () =>
     <Nav />
