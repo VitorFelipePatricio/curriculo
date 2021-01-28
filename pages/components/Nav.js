@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
-import { faCaretDown } from '@fontawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+
 
 export default class Nav extends Component {
     show = () => {
